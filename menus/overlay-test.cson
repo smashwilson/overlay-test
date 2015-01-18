@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle overlay-test'
+      'command': 'overlay-test:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'overlay-test'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'overlay-test:toggle'
+        }
+      ]
+    ]
+  }
+]

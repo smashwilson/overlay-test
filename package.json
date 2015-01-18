@@ -1,0 +1,17 @@
+{
+  "name": "overlay-test",
+  "main": "./lib/overlay-test",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationCommands": {
+    "atom-workspace": "overlay-test:toggle"
+  },
+  "repository": "https://github.com/atom/overlay-test",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "space-pen": "^5.0.1"
+  }
+}
